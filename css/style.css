@@ -1,0 +1,73 @@
+/*reset css*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;} body {line-height: 1;} ol, ul {list-style: none;} blockquote, q {quotes: none;}blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;} table {border-collapse: collapse; border-spacing: 0;}
+/*generic css*/
+.container{width: 1024px;margin: auto;box-shadow: 0px 0px 4px gray;box-sizing: border-box;}
+.clear{clear: both;}
+button{background-color:rgba(243, 184, 5,0.7);color: white;border: none;padding: 10px 17px;font-family:thesans Lp7 bld;font-size:16px;color:white;position: absolute;}
+button img{position: relative;top:2px;left: 4px;  }
+/*font css*/
+@font-face{src:url(../font/TheSans-5-Regular.otf);font-family:thesans lp5plain;}
+@font-face{src:url(../font/TheSans-B7Bold.otf);font-family:Thesans LP7bld;}
+@font-face{src:url(../font/TheSans-B9Black.otf);font-family:Thesans LP9 Black;}
+@font-face{src:url(../font/Myriad Pro Regular.ttf);font-family:Myriad Pro;}
+/*basic css*/
+/*header section*/
+header{position: relative;}
+header .logo{float:left;width: 23%; padding-top: 18px;}
+header nav{float:right;width: 77%; /*padding:60px 0 42px;*/}
+header nav li{/*padding:0 16px;*/display: inline-block;padding: 64px 0 42px;border-right: 1px solid gray;border-image: linear-gradient(to bottom, white 0%, lightgray 100%);border-image-slice: 1; box-sizing: border-box;}
+header nav li:last-child{border-right: none;}
+header nav li a{text-decoration: none;font-family:	;font-size:13px; color:black;padding: 0 20.4px; box-sizing: border-box;font-family:Myriad Pro;}
+header nav li a:hover{background-color: #FDD34C;padding: 64px 20.4px 42px;}
+header .moto{position: absolute;top:0;right: 0px; color: #666;font-family:Myriad Pro;}
+/*banner section*/
+.banner{background-image: url(../img/banner.png);background-repeat: no-repeat;background-size:100%; border-bottom:5px solid #fcc000;border-top:5px solid #fcc000;}
+.banner .business{float:right;color:white;padding: 175px 0 162px;}
+.banner .business h2{font-family:Myriad Pro;font-size:40px;}
+.banner .business p{font-family:Myriad Pro;font-size:18px;line-height: 30px;text-align:center;text-align: center;}
+.banner .ban_nav ul{background-color: rgba(2, 2, 2,0.8);}
+.banner .ban_nav li{display: inline-block;width: 33.1%;padding: 20px 0;text-align: center;}
+.banner .ban_nav li:hover{background-color:rgb(243, 184, 5,0.7);color: #333333;}
+.banner .ban_nav li a {text-decoration: none; color: #fcc000;font-size: 14px;font-family:Myriad Pro;}
+.banner .ban_nav li a:hover {color: #333333;width: 33.15%;padding: 20px 0;box-sizing: border-box; }
+/*started section*/
+.start{ padding:44px 0; text-align:center;background-image:linear-gradient(#ffffff, #fee184);background-repeat: no-repeat;font-size: 100%;}
+.start .s_power{width: 60%;text-align:right; float: left; font-family:thesans lp5plain;color:#666666;font-size:22px;}
+.start span{font-family:thesans lp5plain;color:#005c99;}
+.start .btn{ float: left;margin-left: 15px;}
+/*about section*/
+.about{padding:55px 0 54px;}
+.about .section{float: left;width: 50%;}
+.about .section .image{float: left;width: 40%;text-align: center;}
+.about .section .desc{float: left;width: 60%;}
+.about .section .desc h3{color: #333;font-size: 22px;font-family: thesans lp5plain;}
+.about .section .desc p{font-family: thesans lp5plain;color: #333;font-size: 16px;line-height: 24px;margin: 10px 0 18px;}
+/*about navigation  section*/
+.about_nav{padding:47px 41px 45px;box-sizing: border-box;background-image: linear-gradient(#f0f0f0, #ffffff);}
+.about_nav li{display: inline-block;margin-right: 33px;}
+.about_nav li:last-child{margin-right: 0px;}
+.about_nav li a{text-decoration: none;font-family:Thesans LP7bld;color:#666666;font-size:12px;}
+/*media section*/
+.media {background-color: #ffcc66;padding: 35px 0 22px;}
+.media .follow{float: left;width: 40%;text-align:right;margin-top: 10px;font-family:Thesans LP9 Black;font-size: 16px;color: #333333;}
+.media .icon{float: left;width: 60%; }
+.media .icon img{margin: 0 25px;}
+/*footer1 section*/
+.footer1{background-image: linear-gradient(#fdb12f 10%, #ffcc66 90%);padding: 30px 60px 69px 64px;box-sizing: border-box;}
+.footer1 .f_pkt{float: left;width: 20%;}
+.footer1 .f_pkt p{color: white;margin-bottom: 31px;}
+.footer1 .f_pkt ul li{margin-bottom: 15px;}
+.footer1 .f_pkt ul li a{color: #666666;font-size: 14px; text-decoration: none;line-height: 16px;font-family:thesans lp5plain;}
+.footer1 .f_pkt ul li a:hover{color: black;}
+.bbb{float: right;}
+/*footer2 section*/
+.footer2{padding: 40px 20px 35px;box-sizing: border-box;border-bottom:5px solid #fcc000;}
+.footer2 .f2_nav{float: left;}
+.footer2 .f2_nav li{margin-right: 31px;display: inline-block; }
+.footer2 .f2_nav li a{text-decoration: none;font-family: Thesans LP7bld;color: #666666;font-size: 14px;}
+.footer2 .copy{float: right;font-family: thesans lp5plain;color: #999999;font-size: 14px;}
